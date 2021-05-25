@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="title">
+        <div class="row">
+            <img src="kepek/title.jpg" alt="Pokemon title" class="mx-auto d-block">
+        </div>
+        <div class="row" id="kepek">
+            <table id="tb" style="margin-bottom: 20px;">
+                <td><img src="kepek/pikachu.png" alt="Pikachu" class="pokemons s3" id="kep1" id="pika"></td>
+                <td><img src="kepek/Charizard.png" alt="Charizard" class="pokemons s2" id="kep2" id="char"></td>
+                <td><img src="kepek/Blastoise.jpg" alt="Blastoise" class="pokemons s1" id="kep3" id="blas"></td>
+                <td><img src="kepek/Alakazam.jpg" alt="Alakazam" class="pokemons s2" id="kep4" id="alak"></td>
+                <td><img src="kepek/Golem.jpg" alt="Golem" class="pokemons s3" id="kep5" id="golem"></td>
+            </table>
+            <a class="prev" onclick="vissza()">&#10094;</a>
+            <a class="next" onclick="elore()">&#10095;</a>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="also">
+        <div class="row">
+            <div class="col">
+                <p id="info">Életerő</p>
+            </div>
+            <div class="col-9">
+                <div class="statkulso">
+            <div class="statbarcorner">
+                <a id="min">0</a>
+                <div class="statbarlevel">
+                </div>
+                <a id="max">150</a>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="info">Támadás</p>
+            </div>
+            <div class="col-9">
+                <div class="statkulso">
+            <div class="statbarcorner">
+                <a id="min">0</a>
+                <div class="statbarlevel">
+                </div>
+                <a id="max">150</a>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="info">Védekezés</p>
+            </div>
+            <div class="col-9">
+                <div class="statkulso">
+            <div class="statbarcorner">
+                <a id="min">0</a>
+                <div class="statbarlevel">
+                </div>
+                <a id="max">150</a>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="info">Sebesség</p>
+            </div>
+            <div class="col-9">
+                <div class="statkulso">
+            <div class="statbarcorner">
+                <a id="min">0</a>
+                <div class="statbarlevel">
+                </div>
+                <a id="max">150</a>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="evolve" id="evo" onclick="evolve()">Evolve</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

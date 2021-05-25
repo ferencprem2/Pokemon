@@ -1,0 +1,144 @@
+#title{
+    background-color: black;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#balnyil {
+    position: absolute;
+    top: 65%;
+    left: 16px;
+    border: 5px solid red;
+}
+
+.pokemons{
+    margin: auto;
+    border: 1px solid red;
+}
+
+#tb {
+    width: 100%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 67.5%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: 5px solid red;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#also {
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+#info {
+    color:red;
+    display: inline-block;
+}
+
+.statbarcorner {
+    width: 100%;
+    height: 25px;
+    border: 2px solid red;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.statbarcorner #min {
+    float:left;
+    margin-left: -30px;
+}
+
+.statbarcorner #max {
+    float:right;
+    margin-right: -40px;
+}
+
+.statbarlevel {
+    width: 200px;
+    height: 23px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.statkulso {
+    width: 75%;
+}
+
+@media screen and (min-width: 0px) {
+    .s3 {
+        display: none;
+    }
+    .s2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .s3 {
+        display: none;
+    }
+    .s2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .s3 {
+        display: block;
+    }
+    .s2 {
+        display: block;
+    }
+}
+
+/* @media screen and (min-width: 0px) {
+    #also {
+        display: block;
+    }
+} */
+
+.s3 {
+    height: 180px;
+    width: 180px;
+}
+
+.s2 {
+    height: 200px;
+    width: 200px;
+}
+
+.s1 {
+    height: 220px;
+    width: 220px;
+}
+
+#evo{
+    border: 1px solid black;
+    padding: 3px;
+    float: left;
+    background-color: orange;
+    margin-right: 10px;
+}
